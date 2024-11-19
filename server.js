@@ -6,5 +6,5 @@ app.listen(3000, () => {
 })
 
 app.get("/api", (req, res) => {
-    res.status(200).send("Enviado")
+    res.status(200).send("Enviando...")
 })
